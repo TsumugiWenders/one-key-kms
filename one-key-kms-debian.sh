@@ -7,6 +7,7 @@ export PATH
 clear
 start(){
 apt-get install gcc git make -y
+apt-get install libc6-dev
 mkdir /usr/local/kms
 cd /usr/local/kms
 git clone https://github.com/Wind4/vlmcsd.git
